@@ -1,4 +1,7 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +13,192 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.black-bg {
+  background-color: #0B0C10;
+}
+
+.dark-gray-bg {
+  background-color: #1F2833;
+}
+
+.light-gray-bg {
+  background-color: #C5C6C7;
+}
+
+
+.bright-text {
+  color: #66FCF1;
+}
+
+.dull-text {
+  color: #213837
+}
+
+.dark-gray-text {
+  color: #1F2833
+}
+
+.light-gray-text {
+  color: #C5C6C7
+}
+
+.navbar-option {
+  color: #C5C6C7;
+  font-size: medium;
+  border-bottom: none;
+  transition: font-size 0.3s ease;
+}
+
+.navbar-option:hover {
+  cursor: pointer;
+  color: #66FCF1;
+  font-size: large;
+}
+
+.in-between-span-tags {
+  color:#45A29E; 
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #45A29E;
+}
+
+
+/* card flipping */
+
+.hover-flip-card {
+  perspective: 1000px;
+  width: 300px;
+  height: 300px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.hover-flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 0 3px #275c59;
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+  color: #fff;
+  transform: rotateY(180deg);
+}
+
+.coinbase-btns {
+  width: 200px;
+  margin-inline: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  background-color: #3773f5;
+  transition: background-color 0.3s ease;
+  height: auto;
+  border-radius: 10px;
+}
+
+.coinbase-btns:hover {
+  cursor: pointer;
+  background-color: #9cbbff;
+}
+
+.ubereats-btns {
+  width: 200px;
+  margin-inline: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  background-color: #3fc060;
+  transition: background-color 0.3s ease;
+  height: auto;
+  border-radius: 10px;
+}
+
+.ubereats-btns:hover {
+  cursor: pointer;
+  background-color: #91dba4;
+}
+
+.eventsfinder-btns {
+  width: 200px;
+  margin-inline: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  background-color: #2d7678;
+  transition: background-color 0.3s ease;
+  height: auto;
+  border-radius: 10px;
+}
+
+.eventsfinder-btns:hover {
+  cursor: pointer;
+  background-color: #b3e2e3;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(128, 128, 128, 0.4); /* This adds a subtle box shadow */
+  border-radius: 8px; /* This rounds the corners of the card */
+}
+
+input, textarea {
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(128, 128, 128, 0.4);
+}
+
+input::placeholder, textarea::placeholder {
+  padding-left: 15px;
+}
+.icon {
+  
+}
+.icon:hover {
+  cursor: pointer;
+}
+
+.home-avatar {
+  box-shadow: 0 12px 20px rgba(128, 128, 128, 0.4);
+}
+
+.option-container {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.efmobile-btns {
+  width: 200px;
+  margin-inline: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  background-color: #5E9918;
+  transition: background-color 0.3s ease;
+  height: auto;
+  border-radius: 10px;
+}
+
+.efmobile-btns:hover {
+  cursor: pointer;
+  background-color: #98e140;
 }
