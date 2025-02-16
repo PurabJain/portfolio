@@ -138,7 +138,11 @@ const Coinbase = () => {
                   Demo
                 </a>
               </div>
+<<<<<<< HEAD
               <div className="coinbase-btns">
+=======
+              {/* <div className="coinbase-btns">
+>>>>>>> 451cfa7 (Changes made to add OKX experience)
                 <a
                   href="https://github.com/PurabJain/coinbase-blockchain-app"
                   target="_blank"
@@ -147,7 +151,11 @@ const Coinbase = () => {
                 >
                   Code
                 </a>
+<<<<<<< HEAD
               </div>
+=======
+              </div> */}
+>>>>>>> 451cfa7 (Changes made to add OKX experience)
             </div>
           </div>
         </div>

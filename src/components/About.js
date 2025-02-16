@@ -25,12 +25,17 @@ const About = () => {
           <div className="max-w-[1200px] w-full grid md:grid-cols-2 gap-8 px-4">
             <div className="text-xl md:text-3xl font-bold text-center md:text-right">
               <p>
+<<<<<<< HEAD
                 Greetings! I'm Purab, take a moment to explore the wonders
                 within.
+=======
+                Greetings! I'm Purab, Feel free to explore my work and discover the projects that reflect my passion and expertise!
+>>>>>>> 451cfa7 (Changes made to add OKX experience)
               </p>
             </div>
             <div className="text-center md:text-left">
               <p>
+<<<<<<< HEAD
                 With{" "}
                 <span className="in-between-span-tags">
                   1.5+ years of experience
@@ -64,6 +69,23 @@ const About = () => {
                 thrive in the digital era by creating high-quality software
                 solutions that enhance efficiency and drive innovation.
               </p> */}
+=======
+              I’m a software developer with{" "}
+                <span className="in-between-span-tags">
+                  1.5+ years 
+                </span>{" "}
+                of hands-on experience, and I love making things work better, faster, and smarter. At OKX, I helped boost user engagement by {" "}
+                <span className="in-between-span-tags">50.7%  </span>
+                and improved transaction conversions by {" "}
+                <span className="in-between-span-tags">15.1%</span>—all while making the app run smoother with a {" "}
+                <span className="in-between-span-tags">33% </span>faster API response time. I've also saved{" "}
+                <span className="in-between-span-tags">
+                $28,000
+                </span>{" "}
+                and shaved 36% off development time in past roles. I’m all about collaborating with teams, embracing new tech, and building solutions that really make a difference. 
+                If you're looking for someone who can turn ideas into impactful software, let's create something awesome together!"
+              </p>
+>>>>>>> 451cfa7 (Changes made to add OKX experience)
             </div>
           </div>
         </div>

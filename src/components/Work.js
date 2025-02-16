@@ -24,6 +24,49 @@ const Work = () => {
         </div>
         <div className="w-full h-full justify-center place-items-center mt-10" style={{position: "relative", zIndex: 0}}>
         <VerticalTimeline>
+<<<<<<< HEAD
+=======
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "#1F2833", color: "#fff" }}
+            contentArrowStyle={{
+              borderRight: "7px solid  #1F2833",
+            }}
+            date="May 2024 - Present"
+            iconStyle={{ background: "#45A29E", color: "#fff" }}
+            icon={<FaBriefcase />}
+          >
+            <h1 className="vertical-timeline-element-title font-bold text-xl">
+            Software Engineer (Android)
+            </h1>
+            <h4 className="vertical-timeline-element-subtitle">
+              <span style={{ display: "flex", alignItems: "center" }}>
+                <HiOutlineBuildingOffice2
+                  style={{ height: "20px", marginRight: "5px" }}
+                />
+                <span>
+                  OKX, San Jose, California
+                </span>
+              </span>
+            </h4>
+            <p>
+              <ul style={{ listStyleType: "circle", marginLeft: "1rem" }}>
+                <li>
+                Boosted user engagement and conversions by developing impactful features, 
+                achieving a 50.7% click-through-rate, and 15.1%
+                transaction conversion, while enhancing content discoverability, 
+                leading to ~45% user interaction and longer session durations.
+                </li>
+                <li>
+                Optimized app architecture, performance, and testing, 
+                by migrating legacy code to MVVM design pattern for better maintainability
+                & scalability, reducing API response times by ~33%, 
+                and automating tests to cut manual effort by 30% weekly.
+                </li>
+              </ul>
+            </p>
+          </VerticalTimelineElement>
+>>>>>>> 451cfa7 (Changes made to add OKX experience)
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#1F2833", color: "#fff" }}

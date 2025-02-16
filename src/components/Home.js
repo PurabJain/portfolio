@@ -1,7 +1,11 @@
 import React from "react";
 import homepagebg from "../assets/home-flipped-bg.png";
 import Typed from "typed.js";
+<<<<<<< HEAD
 import avatar from "../assets/avatar2.png";
+=======
+import avatar from "../assets/Portfolio Avatar.jpg";
+>>>>>>> 451cfa7 (Changes made to add OKX experience)
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
@@ -38,7 +42,11 @@ const Home = () => {
           <img
             src={avatar}
             alt="avatar"
+<<<<<<< HEAD
             style={{ height: "100%", width: "100%", borderRadius: "50%" }}
+=======
+            style={{ height: "100%", width: "100%", borderRadius: "50%", objectFit: "cover" }}
+>>>>>>> 451cfa7 (Changes made to add OKX experience)
           />
         </div>
 
@@ -64,7 +72,11 @@ const Home = () => {
           ></Typed> */}
         </div>
         <div className="flex flex-row gap-5 md:gap-10 mt-8">
+<<<<<<< HEAD
           <div className="flex w-full flex-col justify-center icon place-items-center">
+=======
+          {/* <div className="flex w-full flex-col justify-center icon place-items-center">
+>>>>>>> 451cfa7 (Changes made to add OKX experience)
             <a
               className="flex flex-col place-items-center justify-center p-4"
               href="https://github.com/PurabJain"
@@ -74,7 +86,11 @@ const Home = () => {
               <FaGithub color="#66FCF1" size={24} />
               <p className="text-[#66FCF1] font-mono">GitHub</p>
             </a>
+<<<<<<< HEAD
           </div>
+=======
+          </div> */}
+>>>>>>> 451cfa7 (Changes made to add OKX experience)
           <div className="flex flex-col justify-center place-items-center">
             <a
               className="flex flex-col place-items-center justify-center"
