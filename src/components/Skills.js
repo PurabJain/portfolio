@@ -14,11 +14,7 @@ const Skills = () => {
             Programming Languages
           </h4>
           <p class="text-[#bcbcbc] font-mono">
-<<<<<<< HEAD
-            C/C++, Python, Java, JavaScript, TypeScript, SQL
-=======
             C/C++, Python, Java, JavaScript, TypeScript, SQL, Kotlin
->>>>>>> 451cfa7 (Changes made to add OKX experience)
           </p>
         </div>
       </div>
@@ -28,15 +24,9 @@ const Skills = () => {
             Mobile and Web Technologies
           </h4>
           <p class="text-[#bcbcbc] font-mono">
-<<<<<<< HEAD
-            React, React Native, HTML/HTML5, CSS, PHP, RESTful API, Redux,
-            Android-Java, Spring boot, AdobeXD, Ajax, Angular, Node.js, Next.js,
-            Flask, Bootstrap, Express.js, Google Cloud Platform
-=======
             React, React Native, CSS, PHP, RESTful API, Redux,
             Android, Spring boot, Figma, Angular, Node.js,
             Flask, Google Cloud Platform, Jenkins (CI/CD), Appium (Automation Testing)
->>>>>>> 451cfa7 (Changes made to add OKX experience)
           </p>
         </div>
       </div>

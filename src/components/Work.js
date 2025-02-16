@@ -24,8 +24,6 @@ const Work = () => {
         </div>
         <div className="w-full h-full justify-center place-items-center mt-10" style={{position: "relative", zIndex: 0}}>
         <VerticalTimeline>
-<<<<<<< HEAD
-=======
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#1F2833", color: "#fff" }}
@@ -66,7 +64,6 @@ const Work = () => {
               </ul>
             </p>
           </VerticalTimelineElement>
->>>>>>> 451cfa7 (Changes made to add OKX experience)
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#1F2833", color: "#fff" }}

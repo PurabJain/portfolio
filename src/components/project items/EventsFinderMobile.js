@@ -187,19 +187,11 @@ const EventsFinderMobile = () => {
                       Demo
                     </a>
                   </div>
-<<<<<<< HEAD
-                  <div onClick={() => openModal()} className="efmobile-btns">
-                    <p className="p-3 w-full h-full text-center font-bold text-xl text-white">
-                      Code
-                    </p>
-                  </div>
-=======
                   {/* <div onClick={() => openModal()} className="efmobile-btns">
                     <p className="p-3 w-full h-full text-center font-bold text-xl text-white">
                       Code
                     </p>
                   </div> */}
->>>>>>> 451cfa7 (Changes made to add OKX experience)
                 </div>
               </div>
             </div>

@@ -122,11 +122,7 @@ const UberEats = () => {
                       Demo
                     </a>
                   </div>
-<<<<<<< HEAD
-                  <div className="ubereats-btns">
-=======
                   {/* <div className="ubereats-btns">
->>>>>>> 451cfa7 (Changes made to add OKX experience)
                     <a
                       href="https://github.com/PurabJain/Uber-Eats-Clone"
                       target="_blank"
@@ -135,11 +131,7 @@ const UberEats = () => {
                     >
                       Code
                     </a>
-<<<<<<< HEAD
-                  </div>
-=======
                   </div> */}
->>>>>>> 451cfa7 (Changes made to add OKX experience)
                 </div>
               </div>
             </div>

@@ -208,11 +208,7 @@ const EventsFinder = () => {
                   Demo
                 </a>
               </div>
-<<<<<<< HEAD
-              <div className="eventsfinder-btns">
-=======
               {/* <div className="eventsfinder-btns">
->>>>>>> 451cfa7 (Changes made to add OKX experience)
                 <a
                   href="https://events-fusion.wl.r.appspot.com/search"
                   target="_blank"
@@ -221,21 +217,12 @@ const EventsFinder = () => {
                 >
                   Live
                 </a>
-<<<<<<< HEAD
-              </div>
-              <div onClick={() => openModal()} className="eventsfinder-btns">
-                <p className="p-3 w-full h-full text-center font-bold text-xl text-white">
-                  Code
-                </p>
-              </div>
-=======
               </div> */}
               {/* <div onClick={() => openModal()} className="eventsfinder-btns">
                 <p className="p-3 w-full h-full text-center font-bold text-xl text-white">
                   Code
                 </p>
               </div> */}
->>>>>>> 451cfa7 (Changes made to add OKX experience)
             </div>
           </div>
         </div>
